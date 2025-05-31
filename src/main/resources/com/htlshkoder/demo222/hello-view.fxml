@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.htlshkoder.demo222.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
-
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.htlshkoder.prov2.HelloController">
+    <children>
+        <Rectangle fx:id="leftPaddle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="35.0" layoutY="390.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+        <Rectangle fx:id="rightPaddle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="1135.0" layoutY="390.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+        <Label fx:id="gameOverLabel" alignment="CENTER" layoutX="144.0" layoutY="394.0" prefHeight="112.0" prefWidth="913.0" textFill="#03c97d">
+            <font>
+                <Font name="Comic Sans MS Bold" size="73.0" />
+            </font>
+        </Label>
+        <Circle fx:id="ball" fill="DODGERBLUE" layoutX="600.0" layoutY="450.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+        <Label fx:id="welcomeText" alignment="CENTER" layoutX="519.0" layoutY="80.0" prefHeight="27.0" prefWidth="163.0" textFill="#03c97d">
+            <font>
+                <Font size="30.0" />
+            </font></Label>
+    </children>
+</Pane>
