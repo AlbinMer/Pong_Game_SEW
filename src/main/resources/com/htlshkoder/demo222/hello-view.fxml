@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.htlshkoder.prov2.HelloController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.htlshkoder.demo222.HelloController">
     <children>
         <Rectangle fx:id="leftPaddle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="35.0" layoutY="390.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
         <Rectangle fx:id="rightPaddle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="1135.0" layoutY="390.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
